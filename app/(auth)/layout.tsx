@@ -14,7 +14,7 @@ const Layout = async ({ children }: { children: ReactNode }) => {
         <div className="auth-box">
           <div className="flex flex-row gap-3">
             <Image src="/icons/logo.svg" alt="logo" width={37} height={37} />
-            <h1 className="text-2xl font-semibold text-white">LibAger</h1>
+            <h1 className="text-2xl font-semibold text-white">BookWise</h1>
           </div>
           {/*here we used children as props to render sign-in and sign-up page so basic layout remains same just changing the url gives us diffrent page.tsx*/}
           <div>{children}</div>
